@@ -1,0 +1,403 @@
+[
+  {
+    "path": "00-referencias/01-conceptlovinspoon.png",
+    "kind": "reference",
+    "bytes": 1892108,
+    "sha256": "aa36e04939f3f0d01fe974d653b742e18dc93245dce7bae99a7e7c8ce4d0bde4",
+    "width": 1088,
+    "height": 1438,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "path": "00-referencias/02-menu.png",
+    "kind": "reference",
+    "bytes": 2596722,
+    "sha256": "c96cc6bdd73c0acb6c6ecd917f6d864e8231833bccdec5fda37e9e1625c42895",
+    "width": 1156,
+    "height": 1488,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "path": "00-referencias/03-menu2.png",
+    "kind": "reference",
+    "bytes": 827473,
+    "sha256": "98f3720d2d748ed7bbf3915619bd2830f6ef129dc8948cde0f4874c3c6bbd48a",
+    "width": 744,
+    "height": 666,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "path": "00-referencias/04-sectionimageidea.png",
+    "kind": "reference",
+    "bytes": 1419593,
+    "sha256": "96a1d9120362b21a5a96ef2d8564782f14a5f167687f5104ba32c2c0f8dc9ea5",
+    "width": 898,
+    "height": 1092,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "path": "00-referencias/05-sectionimageidea2.png",
+    "kind": "reference",
+    "bytes": 1536013,
+    "sha256": "ee3a9f929261187fd4b2f1fe5660ab3ddd88187bb5c17963c4e03d0f65da2b3c",
+    "width": 600,
+    "height": 1162,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      255,
+      255
+    ]
+  },
+  {
+    "path": "01-identidade/lovinspoon-preta-transparente.png",
+    "kind": "identity-reconstruction",
+    "bytes": 360310,
+    "sha256": "95db1b8ae8c2b7cb71e83b983141c2fba6d6aff94bd60e95977fb68bee5d2bdc",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "02-direcao/combinacao-final-02-03.png",
+    "kind": "concept-board",
+    "bytes": 2531203,
+    "sha256": "ea851a5ba37896001d6f8bd24a7c8dfc2fc9695de8c1750e093496f01546ef27",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "path": "02-direcao/modelo-02-escolhido.png",
+    "kind": "concept-board",
+    "bytes": 2638792,
+    "sha256": "f0c47c6fbc2a22cab845c3cc1518296036e10c8ffb6daf5747d7995e4588790c",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "path": "02-direcao/modelo-03-origem-da-ultima-secao.png",
+    "kind": "concept-board",
+    "bytes": 2523266,
+    "sha256": "4ab9e55cf5f5afbcfa960fc0b078774c9c10dcbc90af29c3ac2dd3edb824c0c7",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "path": "03-hero/breakfast-sem-texto.png",
+    "kind": "campaign",
+    "bytes": 2497324,
+    "sha256": "3770cf710669d75814a88f881a2128905412b6858f413a84e89e2ab49959efc6",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB"
+  },
+  {
+    "path": "03-hero/hero-sanduiche-sem-texto.png",
+    "kind": "campaign",
+    "bytes": 1995157,
+    "sha256": "6271ab1eab11a4576ad5ef170c0580ce2df3b5ec4144e0ce9fdd0d3f014b3f93",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB"
+  },
+  {
+    "path": "04-fotos-do-local/facade-alt.jpg",
+    "kind": "real-location-public-source",
+    "bytes": 212077,
+    "sha256": "9cfbdf6e1203a5570784189315fadae746b09d194e68de8e5d6f8e014cbe4ec2",
+    "width": 1600,
+    "height": 900,
+    "mode": "RGB"
+  },
+  {
+    "path": "04-fotos-do-local/facade.jpg",
+    "kind": "real-location-public-source",
+    "bytes": 432251,
+    "sha256": "049e651db68f542a67225f3fe9f8b73d75a483811deef5c725d242e5bbb83111",
+    "width": 1200,
+    "height": 1200,
+    "mode": "RGB"
+  },
+  {
+    "path": "04-fotos-do-local/interior.jpg",
+    "kind": "real-location-public-source",
+    "bytes": 250853,
+    "sha256": "115febe4b4936c49639eb66c623ccc8951707c0b3ec125e5202800b7b6dd689b",
+    "width": 1200,
+    "height": 900,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/breakfast.webp",
+    "kind": "web-asset",
+    "bytes": 361166,
+    "sha256": "8f23100a4ea28856ab312f6ad5de94575a49e3d10f2c628842c2ada3ee159928",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/diner-left.svg",
+    "kind": "web-asset",
+    "bytes": 1023,
+    "sha256": "afc446567c3be1cf0261d579b0712a4f3fbb698b990278d03a37b768b5454e07"
+  },
+  {
+    "path": "05-assets-web/diner-right.svg",
+    "kind": "web-asset",
+    "bytes": 1076,
+    "sha256": "c4ac6126ab186f3fb6547f903afed2084321eeb2c5fd5cf5efe563c6db78db5b"
+  },
+  {
+    "path": "05-assets-web/facade-alt.webp",
+    "kind": "web-asset",
+    "bytes": 165154,
+    "sha256": "37328028e4948e8a2cc9d06a00695beaa16b9062c41658e73d885b59a4005bfe",
+    "width": 1600,
+    "height": 900,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/facade.webp",
+    "kind": "web-asset",
+    "bytes": 390558,
+    "sha256": "c8163f616c88576d34397639f41d6a1a491356a5c5c7ae7e60dca00204cf87e0",
+    "width": 1200,
+    "height": 1200,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/filling.png",
+    "kind": "web-asset",
+    "bytes": 1750806,
+    "sha256": "91c9d9f9a7f7f432e7d569373b5657746e4c307cfd99ef1941017ddf93691ae8",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/filling.webp",
+    "kind": "web-asset",
+    "bytes": 465824,
+    "sha256": "78fa0f4c07988dcc098a49dff2ea17fdd3903154ca574bf462469db74e597ead",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/hero-sanduiche.webp",
+    "kind": "web-asset",
+    "bytes": 191606,
+    "sha256": "36e9b7b869bc1d29648c428e19f76f38ca0723d8e6e48aae162415177ff2cbdd",
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/interior.webp",
+    "kind": "web-asset",
+    "bytes": 207242,
+    "sha256": "b124828d993aa177a76e57520868a1b223a874d8f7ea672f1a21a4d906b4abe1",
+    "width": 1200,
+    "height": 900,
+    "mode": "RGB"
+  },
+  {
+    "path": "05-assets-web/logo.webp",
+    "kind": "web-asset",
+    "bytes": 136214,
+    "sha256": "eb4ac5d0852c98af18e9dbfd076e34b9526fe21b9b78b5a4065b173850beea4d",
+    "width": 2172,
+    "height": 724,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/salad.png",
+    "kind": "web-asset",
+    "bytes": 2147500,
+    "sha256": "e2e453e4d2c43e76f3bb6cfefb633b7c98d7447e3f5ab73aecf46f4be3bef601",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/salad.webp",
+    "kind": "web-asset",
+    "bytes": 550142,
+    "sha256": "e26ce4c106884302293cdd261b45ff8b12ad8263bb468b3e05a32de44804762a",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/sanduiche-camadas-transparente.png",
+    "kind": "web-asset",
+    "bytes": 2920588,
+    "sha256": "b3de370076b5e4cd30c72644eec87b1206925e6f9eb5e5a39ee679a5a002c5c0",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "05-assets-web/sandwich-layers.webp",
+    "kind": "web-asset",
+    "bytes": 598286,
+    "sha256": "1e8647e864b30c7307f83941e532ec3f5b0727dd44845408b6aab9eebc951453",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      254
+    ]
+  },
+  {
+    "path": "05-assets-web/toast-base.png",
+    "kind": "web-asset",
+    "bytes": 1977863,
+    "sha256": "4d36bd424cbb5fe40d68c0cae3b18540881d8e33dead0da137dab43f39831d6a",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/toast-base.webp",
+    "kind": "web-asset",
+    "bytes": 511594,
+    "sha256": "057c6252373f9d04c82a2d5f37de71df44871fecb433094d94b6533e35d28455",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/toast-top.png",
+    "kind": "web-asset",
+    "bytes": 2058709,
+    "sha256": "2611259ea3266f1967cd131d28da5150a2b17e6943d77c53feb4fdb1e1c2fb40",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "05-assets-web/toast-top.webp",
+    "kind": "web-asset",
+    "bytes": 512258,
+    "sha256": "5115da283ca4ae13d1234dd2358644d03b68d434af2750a58f2e9c91dbdbd7f6",
+    "width": 1774,
+    "height": 887,
+    "mode": "RGBA",
+    "alphaExtrema": [
+      0,
+      255
+    ]
+  },
+  {
+    "path": "06-roteiros/montagem-sanduiche.mp4",
+    "kind": "illustrative-composition",
+    "bytes": 179814,
+    "sha256": "ed0c4ca2f1d51eb159231c778f4585bc899dca5c5e911d2dcc91c23e4f365829"
+  },
+  {
+    "path": "06-roteiros/storyboard.png",
+    "kind": "illustrative-composition",
+    "bytes": 321728,
+    "sha256": "4d999d6a0c10369044ce08212911b30bbb3f5209bd952c8418479225598bee89",
+    "width": 1320,
+    "height": 730,
+    "mode": "RGB"
+  },
+  {
+    "path": "08-estudo/fonts/Caveat.woff",
+    "kind": "font",
+    "bytes": 143200,
+    "sha256": "b4625a5a51f68f341e8923bdbdfc9c7d8807cc1a53a4d50e68208eace66e031b"
+  },
+  {
+    "path": "08-estudo/fonts/LilitaOne.woff",
+    "kind": "font",
+    "bytes": 15520,
+    "sha256": "0daf1b86abe014ad17053535808e1d0c428c003b79c968540daa8438daf9d90b"
+  },
+  {
+    "path": "08-estudo/fonts/NimbusSans.woff",
+    "kind": "font",
+    "bytes": 60912,
+    "sha256": "1f7891314cc612779cac528ef90d1f2161233edabeb59682024a07b48e63ba74"
+  },
+  {
+    "path": "11-maquetes/desktop-1440.png",
+    "kind": "illustrative-composition",
+    "bytes": 6343513,
+    "sha256": "b74fa87e5eac80f9532ac430b0a4076776e3b44bee36c6103b00ce26c7691cfe",
+    "width": 1440,
+    "height": 3090,
+    "mode": "RGB"
+  },
+  {
+    "path": "11-maquetes/mobile-390.png",
+    "kind": "illustrative-composition",
+    "bytes": 1785391,
+    "sha256": "c9c304a5bbb25182a471862eb2613c3e5ec4b99418fe4a172aab033a909cbc72",
+    "width": 390,
+    "height": 3480,
+    "mode": "RGB"
+  }
+]

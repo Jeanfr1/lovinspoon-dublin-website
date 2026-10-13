@@ -1,0 +1,37 @@
+{
+  "mode": "four independent transparent cutouts",
+  "parts": [
+    {
+      "path": "05-assets-web/toast-top.png",
+      "webPath": "05-assets-web/toast-top.webp",
+      "topPercent": 3,
+      "heightPercent": 25,
+      "assembleShiftOfStageHeight": 0.32
+    },
+    {
+      "path": "05-assets-web/salad.png",
+      "webPath": "05-assets-web/salad.webp",
+      "topPercent": 31,
+      "heightPercent": 23,
+      "assembleShiftOfStageHeight": 0.2
+    },
+    {
+      "path": "05-assets-web/filling.png",
+      "webPath": "05-assets-web/filling.webp",
+      "topPercent": 56,
+      "heightPercent": 21,
+      "assembleShiftOfStageHeight": 0.08
+    },
+    {
+      "path": "05-assets-web/toast-base.png",
+      "webPath": "05-assets-web/toast-base.webp",
+      "topPercent": 79,
+      "heightPercent": 21,
+      "assembleShiftOfStageHeight": 0
+    }
+  ],
+  "stageShiftOfImageHeight": -0.15,
+  "fullStaticComposition": "05-assets-web/sanduiche-camadas-transparente.png",
+  "reducedMotion": "static open state",
+  "recipe": "illustrative"
+}

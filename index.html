@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lovinspoon · Love at first bite · Frederick Street, Dublin 1</title>
+<meta name="description" content="Breakfast, sandwiches and good coffee at Lovinspoon, 13 Frederick Street North, Dublin 1.">
+<!-- TODO(lovinspoon): final domain → update canonical + og:url, then drop noindex here, in vercel.json (X-Robots-Tag) and in public/robots.txt -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#24231F">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://lovinspoon-dublin.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lovinspoon">
+<meta property="og:title" content="Lovinspoon · Love at first bite">
+<meta property="og:description" content="Breakfast, sandwiches and good coffee at 13 Frederick Street North, Dublin 1.">
+<meta property="og:url" content="https://lovinspoon-dublin.vercel.app/">
+<meta property="og:image" content="https://lovinspoon-dublin.vercel.app/og-v1.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/lilita-one.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" media="(min-aspect-ratio: 4/5)" imagesrcset="/img/hero-wide-v1-1280.avif 1280w, /img/hero-wide-v1-1920.avif 1920w, /img/hero-wide-v1-2560.avif 2560w, /img/hero-wide-v1-3200.avif 3200w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/avif" media="(max-aspect-ratio: 4/5)" imagesrcset="/img/hero-tall-v1-600.avif 600w, /img/hero-tall-v1-900.avif 900w, /img/hero-tall-v1-1200.avif 1200w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="/src/styles/main.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Lovinspoon",
+  "servesCuisine": ["Breakfast", "Sandwiches", "Coffee"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "13 Frederick Street North",
+    "addressLocality": "Dublin 1",
+    "postalCode": "D01 W9X4",
+    "addressCountry": "IE"
+  },
+  "sameAs": ["https://www.tripadvisor.com/Restaurant_Review-g186605-d3337240-Reviews-Lovinspoon-Dublin_County_Dublin.html"]
+}
+</script>
+</head>
+<body>
+<!--@logo-symbol-->
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    <a href="#breakfast">Breakfast</a>
+    <a href="#sandwiches">Sandwiches</a>
+  </nav>
+  <!-- TODO(lovinspoon): official logo master; this one is traced from the kit's reconstruction of the shop sign -->
+  <a class="logo" href="#home" aria-label="Lovinspoon home">
+    <svg viewBox="{{LOGO_VIEWBOX}}" aria-hidden="true" focusable="false"><use href="#lovinspoon-logo"/></svg>
+  </a>
+  <a class="visit-link" href="#visit">Visit <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4"/></svg></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">
+    <span class="sr-only">Open navigation</span>
+    <svg class="icon icon-menu" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+  </button>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+    <a href="#breakfast">Breakfast</a>
+    <a href="#sandwiches">Sandwiches</a>
+    <a href="#visit">Visit</a>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <!-- TODO(lovinspoon): hero and breakfast are campaign photos made for the project (anonymous model); owner sign-off before launch -->
+  <div class="photo hero-photo"><!--@pic:hero--></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+
+  <div class="hero-copy">
+    <p class="eyebrow">Frederick Street · Dublin 1</p>
+    <h1 id="hero-title" class="display">
+      <span class="spark spark-left" aria-hidden="true"><svg viewBox="0 0 48 40"><path d="M44 8 22 2M44 20 8 20M44 32 22 38"/></svg></span>
+      Love at<br>first bite.
+      <span class="spark spark-right" aria-hidden="true"><svg viewBox="0 0 48 40"><path d="M4 8 26 2M4 20 40 20M4 32 26 38"/></svg></span>
+    </h1>
+    <svg class="swish" viewBox="0 0 300 26" aria-hidden="true" preserveAspectRatio="none"><path d="M3 19C58 8 150 2 297 9c-2 3-5 5-9 5C190 9 96 15 8 25c-4 0-6-3-5-6Z"/></svg>
+    <p class="hero-caption">Breakfast, sandwiches and good coffee in Dublin.</p>
+  </div>
+
+  <div class="diner diner-left" aria-hidden="true"><svg viewBox="0 0 240 320" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M75 96C53 86 53 63 68 55C63 32 89 21 107 34C126 10 155 29 151 48C181 44 193 72 178 87"/><path pathLength="1" d="M73 82C62 116 83 142 108 146C139 150 159 124 157 93M91 145L87 161M127 143L134 161"/><path pathLength="1" d="M96 103L100 104M133 99L138 100M119 106L115 118L122 120M101 125C112 138 130 133 133 123M84 91C88 85 96 83 103 88M126 84C131 79 143 81 147 85"/><path pathLength="1" d="M87 161C70 153 53 163 48 182L28 258C22 283 44 293 61 278L92 233M134 161C153 161 164 176 172 197L200 249C210 269 188 285 172 273L133 241M87 161L114 180L134 161M73 192L81 316M148 196L147 316M81 316L147 316"/><path pathLength="1" d="M53 243L77 204C85 193 99 203 93 215L70 264M168 245L157 206C153 192 170 188 175 202L184 238"/><path pathLength="1" d="M77 203L64 126L57 123L52 132L66 204M173 204L176 133M171 116L171 134L185 134L185 116M178 114L178 134M178 134L178 203"/><path pathLength="1" d="M28 102L15 98M31 116L13 120M194 101L209 96M194 115L211 116"/></svg></div>
+  <div class="diner diner-right" aria-hidden="true"><svg viewBox="0 0 240 320" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M72 88C58 22 146 15 169 61C182 89 170 109 190 139C203 158 189 176 172 169M72 88C57 117 52 148 32 157C26 173 50 177 67 168"/><path pathLength="1" d="M74 78C92 72 97 57 99 50C109 77 137 82 153 80M72 88C66 121 90 146 116 145C145 143 157 119 154 85M89 143L85 162M132 141L138 161"/><path pathLength="1" d="M88 97L94 95M126 96L132 98M109 104L108 116L116 117M94 124C104 134 119 131 125 124M83 84C88 81 95 83 98 86M124 84C132 82 137 86 139 89"/><path pathLength="1" d="M85 162L111 181L138 161M85 162C65 163 50 176 44 199L24 268C19 292 46 298 59 278L88 234M138 161C158 164 172 178 178 200L204 267C211 290 187 299 173 281L145 240M77 195L70 317L157 317L148 198"/><path pathLength="1" d="M43 251L69 210C78 195 91 206 83 218L57 270M175 253L163 212C158 198 171 193 179 207L189 240"/><path pathLength="1" d="M69 207L61 133M53 112L54 131L68 131L68 112M61 112L61 133M61 133L66 207M177 207L189 122L195 122L200 132L187 212"/><path pathLength="1" d="M33 90L19 85M29 107L12 108M184 92L201 85M187 108L206 110"/></svg></div>
+
+  <p class="note note-left" aria-hidden="true">A little<br>crunch.<svg viewBox="0 0 110 90"><path pathLength="1" d="M10 6c22-2 30 14 18 24s-2 26 20 22 30 4 30 18c0 6 4 10 14 12m0 0-13 1m13-1-3-12"/></svg></p>
+  <p class="note note-right" aria-hidden="true">A lot of<br>lovin'.<svg viewBox="0 0 110 90"><path pathLength="1" d="M10 6c22-2 30 14 18 24s-2 26 20 22 30 4 30 18c0 6 4 10 14 12m0 0-13 1m13-1-3-12"/></svg></p>
+
+  <div class="hero-actions">
+    <a class="paper-button" href="#breakfast">Explore the menu <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+    <a class="small-link" href="#sandwiches">See lunch come together <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v10M4 9l4 4 4-4"/></svg></a>
+  </div>
+
+  <div class="motion-controls">
+    <button id="replay" type="button"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8a5 5 0 1 0 1.6-3.7M3 2.5v2.8h2.8"/></svg>Replay opening</button>
+    <button id="pause" type="button" aria-pressed="false"><svg class="icon icon-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3.5v9M10 3.5v9"/></svg><span>Pause motion</span></button>
+  </div>
+  <script>document.querySelector('.hero').classList.add('playing')</script>
+</section>
+
+<section class="breakfast-section" id="breakfast" aria-labelledby="breakfast-title">
+  <div class="photo breakfast-photo"><!--@pic:breakfast--></div>
+  <div class="breakfast-shade" aria-hidden="true"></div>
+  <div class="breakfast-copy reveal">
+    <p class="eyebrow">A proper start.</p>
+    <h2 id="breakfast-title" class="display">
+      <span class="spark spark-left" aria-hidden="true"><svg viewBox="0 0 48 40"><path d="M44 8 22 2M44 20 8 20M44 32 22 38"/></svg></span>
+      Start with<br>something<br>good.
+    </h2>
+    <svg class="swish" viewBox="0 0 300 26" aria-hidden="true" preserveAspectRatio="none"><path d="M3 19C58 8 150 2 297 9c-2 3-5 5-9 5C190 9 96 15 8 25c-4 0-6-3-5-6Z"/></svg>
+    <p class="handwritten">Proper breakfasts, good coffee and a little lovin' to start your day.</p>
+    <!-- TODO(lovinspoon): dishes transcribed from the supplied breakfast board (date unknown); owner to confirm. No prices, hours or allergens until confirmed -->
+    <details class="menu-paper">
+      <summary>Breakfast favourites <svg class="icon icon-plus" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+      <div class="menu-items">
+        <article><h3>The Big</h3><p>Bacon, egg, sausage, beans, toast, tomato, white and black pudding, mushrooms and pancake.</p></article>
+        <article><h3>The Vegetarian</h3><p>Fried eggs, potato, toast, mushrooms, tomato and beans.</p></article>
+        <article><h3>Poached eggs</h3><p>With toast.</p></article>
+        <article><h3>Pancakes</h3><p>With blueberries and maple syrup.</p></article>
+        <p class="today-note">Ask us about today's selection.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="lunch-section" id="sandwiches" aria-labelledby="lunch-title">
+  <!-- TODO(lovinspoon): interior and storefront photos are public web photos (see 00-referencias/FONTES-E-DADOS.md); ask for official photos or permission -->
+  <div class="photo lunch-background" aria-hidden="true"><!--@pic:interior--></div>
+  <div class="lunch-shade" aria-hidden="true"></div>
+  <div class="lunch-layout">
+    <div class="lunch-copy reveal">
+      <p class="eyebrow">Layer by layer.</p>
+      <h2 id="lunch-title" class="display">Lunch<br>comes<br>together.</h2>
+      <svg class="swish" viewBox="0 0 300 26" aria-hidden="true" preserveAspectRatio="none"><path d="M3 19C58 8 150 2 297 9c-2 3-5 5-9 5C190 9 96 15 8 25c-4 0-6-3-5-6Z"/></svg>
+      <p class="lunch-intro">Sandwiches, good company<br>and a little lovin'.</p>
+    </div>
+
+    <div class="sandwich-side">
+      <!-- TODO(lovinspoon): the layered sandwich shows the category, not a named menu item; add real sandwich names only once the owner confirms them -->
+      <figure class="sandwich-figure" role="img" aria-label="A sandwich in four layers: toasted bread, lettuce and tomato, bacon and melted cheese, toasted bread">
+        <div class="sandwich-stage" data-progress="0">
+<!--@layers-->
+        </div>
+      </figure>
+      <details class="motion-lab">
+        <summary>Play with the layers <svg class="icon icon-plus" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+        <div class="layer-controls">
+          <label for="layer-progress">Bring it together <output id="layer-output" for="layer-progress">0%</output></label>
+          <input id="layer-progress" type="range" min="0" max="100" value="0" aria-label="Sandwich layers">
+          <div class="layer-buttons">
+            <button id="open-layers" type="button">Open the layers</button>
+            <button id="assemble-layers" type="button">Bring it together</button>
+            <button id="follow-scroll" type="button">Follow scroll</button>
+          </div>
+          <p id="reduced-status" class="reduced-status" hidden>Reduced motion is enabled.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- TODO(lovinspoon): swap the directions search for the Google place link (maps.google.com/?cid=…) once the owner confirms the listing; opening hours and phone stay off until confirmed (sources disagree) -->
+    <div class="visit-scrap" id="visit">
+      <a class="postcard" href="https://www.google.com/maps/search/?api=1&amp;query=Lovinspoon%2C%2013%20Frederick%20Street%20North%2C%20Dublin%201%2C%20D01%20W9X4" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Lovinspoon (opens Google Maps)">
+        <!--@pic:facade-->
+        <span class="postcard-caption" aria-hidden="true">Our little Dublin spot.</span>
+      </a>
+      <div class="address-paper">
+        <h3>Find us</h3>
+        <address>13 Frederick Street North,<br>Dublin 1, D01 W9X4</address>
+        <a class="directions" href="https://www.google.com/maps/search/?api=1&amp;query=Lovinspoon%2C%2013%20Frederick%20Street%20North%2C%20Dublin%201%2C%20D01%20W9X4" target="_blank" rel="noopener noreferrer">Get directions <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <a class="footer-logo" href="#home" aria-label="Lovinspoon home">
+    <svg viewBox="{{LOGO_VIEWBOX}}" aria-hidden="true" focusable="false"><use href="#lovinspoon-logo"/></svg>
+  </a>
+  <p class="footer-address">13 Frederick Street North<br>Dublin 1, D01 W9X4</p>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="#breakfast">Breakfast</a>
+    <a href="#sandwiches">Sandwiches</a>
+    <a href="#visit">Visit</a>
+    <a href="https://www.tripadvisor.com/Restaurant_Review-g186605-d3337240-Reviews-Lovinspoon-Dublin_County_Dublin.html" target="_blank" rel="noopener noreferrer">See Lovinspoon on Tripadvisor <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 12 12 4M5.5 4H12v6.5"/></svg></a>
+  </nav>
+  <a class="back-top" href="#home">Back to top <svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4"/></svg></a>
+</footer>
+
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

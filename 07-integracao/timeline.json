@@ -1,0 +1,40 @@
+{
+  "heroDurationMs": 1650,
+  "loop": false,
+  "scrollLock": false,
+  "audio": false,
+  "hero": [
+    {
+      "start": 0,
+      "end": 900,
+      "layer": "photo",
+      "effect": "scale 1.025 to 1"
+    },
+    {
+      "start": 200,
+      "end": 1100,
+      "layer": "title",
+      "effect": "translate 16 px / fade"
+    },
+    {
+      "start": 350,
+      "end": 1650,
+      "layer": "diners",
+      "effect": "stroke draw"
+    }
+  ],
+  "lunch": {
+    "progressRange": [
+      0,
+      1
+    ],
+    "input": [
+      "scroll",
+      "slider",
+      "open/assemble buttons"
+    ],
+    "paused": "scroll frozen; manual control available",
+    "reducedMotion": "static exploded layers"
+  },
+  "geometry": "camadas.json"
+}

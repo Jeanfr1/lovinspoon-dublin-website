@@ -1,0 +1,20 @@
+{
+  "brand": "Lovinspoon",
+  "language": "en-IE",
+  "approvedCombination": "Model 2 hero + model 2 breakfast + model 3 final Lunch comes together section",
+  "address": "13 Frederick Street North, Dublin 1",
+  "postcode": "D01 W9X4",
+  "directions": "https://www.google.com/maps/search/?api=1&query=Lovinspoon%2013%20Frederick%20Street%20North%20Dublin",
+  "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g186605-d3337240-Reviews-Lovinspoon-Dublin_County_Dublin.html",
+  "phone": null,
+  "hours": null,
+  "currentPrices": null,
+  "bookingUrl": null,
+  "palette": {
+    "charcoal": "#24231F",
+    "paper": "#F7F0E2",
+    "chalk": "#FFFCF5",
+    "mustard": "#E5AF35",
+    "wood": "#8A5433"
+  }
+}

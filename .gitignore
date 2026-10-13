@@ -1,0 +1,9 @@
+node_modules/
+dist/
+assets-src/
+.DS_Store
+.vercel
+# third-party inspiration boards and menu photos from the brief (not ours to publish); the sources note stays
+00-referencias/*
+!00-referencias/FONTES-E-DADOS.md
+qa/

@@ -1,0 +1,172 @@
+{
+  "status": "Historic supplied photographs; date and current availability unconfirmed. Prices below are reference transcription ONLY, not current published prices.",
+  "currency": "EUR",
+  "source": "00-referencias/02-menu.png",
+  "breakfast": [
+    {
+      "name": "The Big",
+      "components": [
+        "Bacon",
+        "Egg",
+        "Sausage",
+        "Beans",
+        "Toast",
+        "Tomato",
+        "White pudding",
+        "Black pudding",
+        "Mushrooms",
+        "Pancake"
+      ],
+      "referencePrice": 8.5,
+      "publishPrice": false
+    },
+    {
+      "name": "The Regular",
+      "components": [
+        "Bacon",
+        "Egg",
+        "Sausage",
+        "Beans",
+        "Toast",
+        "Tomato",
+        "White pudding",
+        "Mushrooms"
+      ],
+      "referencePrice": 7.5,
+      "publishPrice": false
+    },
+    {
+      "name": "The Small",
+      "components": [
+        "Bacon",
+        "Egg",
+        "Sausage",
+        "Beans",
+        "Toast"
+      ],
+      "referencePrice": 5.5,
+      "publishPrice": false
+    },
+    {
+      "name": "The Vegetarian",
+      "components": [
+        "Two fried eggs",
+        "Potato",
+        "Toast",
+        "Mushrooms",
+        "Tomato",
+        "Beans"
+      ],
+      "referencePrice": 6.5,
+      "publishPrice": false
+    },
+    {
+      "name": "Omelette",
+      "components": [
+        "Three eggs",
+        "Tea or coffee"
+      ],
+      "referencePrice": 8.9,
+      "publishPrice": false
+    },
+    {
+      "name": "Poached Eggs",
+      "components": [
+        "Toast",
+        "Tea or coffee"
+      ],
+      "referencePrice": 7.5,
+      "publishPrice": false
+    },
+    {
+      "name": "Scrambled Eggs",
+      "components": [
+        "Toast",
+        "Tea or coffee"
+      ],
+      "referencePrice": 7.5,
+      "publishPrice": false
+    },
+    {
+      "name": "Pancakes + Bacon",
+      "components": [
+        "Maple syrup"
+      ],
+      "referencePrice": 6.9,
+      "publishPrice": false
+    },
+    {
+      "name": "Granola",
+      "components": [
+        "Greek yogurt",
+        "Honey"
+      ],
+      "referencePrice": 5.5,
+      "publishPrice": false
+    },
+    {
+      "name": "Porridge",
+      "components": [
+        "Honey",
+        "Fruit or nuts"
+      ],
+      "referencePrice": 6.0,
+      "publishPrice": false
+    },
+    {
+      "name": "Toast",
+      "components": [],
+      "referencePrice": 2.2,
+      "publishPrice": false
+    },
+    {
+      "name": "Homemade Scone",
+      "components": [],
+      "referencePrice": 2.3,
+      "publishPrice": false
+    },
+    {
+      "name": "Pancakes",
+      "components": [
+        "Blueberries",
+        "Maple syrup"
+      ],
+      "referencePrice": 6.5,
+      "publishPrice": false
+    }
+  ],
+  "sandwiches": {
+    "categoryConfirmed": true,
+    "recipesConfirmed": false,
+    "images": "illustrative campaign"
+  },
+  "otherBoard": {
+    "source": "00-referencias/03-menu2.png",
+    "drinks": [
+      "Coffee",
+      "Cappuccino",
+      "Latte",
+      "Flat white",
+      "Espresso",
+      "Mocha",
+      "Hot chocolate",
+      "Loose teas"
+    ],
+    "cakes": [
+      "Carrot cake",
+      "Chocolate biscuit",
+      "Chocolate and almond",
+      "Apple crumble",
+      "Rhubarb and strawberry crumble",
+      "Apple tart",
+      "Toffee and apple pie",
+      "Scones",
+      "Flapjacks"
+    ],
+    "soups": [
+      "Sweet potato and butternut",
+      "Cream of mushroom"
+    ],
+    "pricesPublished": false
+  }
+}

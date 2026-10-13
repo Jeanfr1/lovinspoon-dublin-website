@@ -1,0 +1,22 @@
+// Behaviour checks in a minimal DOM harness; not a CSS/browser rendering test.
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const classes=()=>({s:new Set(),add(k){this.s.add(k)},remove(k){this.s.delete(k)},toggle(k,on){if(on===undefined)on=!this.s.has(k);on?this.add(k):this.remove(k)},contains(k){return this.s.has(k)}});
+const el=()=>({classList:classes(),style:{},events:{},attrs:{},dataset:{},hidden:false,disabled:false,value:'0',textContent:'',offsetWidth:100,firstChild:{textContent:'Open navigation '},addEventListener(k,f){this.events[k]=f},setAttribute(k,v){this.attrs[k]=v},getAttribute(k){return this.attrs[k]},getBoundingClientRect(){return{height:600,top:0}},focus(){this.focused=true}});
+const root=el(),hero=el(),lunch=el(),stage=el(),reveal=el(),nav=el(),link=el(),media={matches:false,addEventListener(k,f){this.changed=f}};nav.hidden=true;nav.querySelectorAll=()=>[link];lunch.getBoundingClientRect=()=>({height:1100,top:2000});
+const layers=[.32,.20,.08,0].map(n=>{const e=el();e.dataset.shift=String(n);return e});
+const m={'.hero':hero,'.lunch-section':lunch,'.sandwich-stage':stage,'#mobile-nav':nav};['#replay','#pause','#layer-progress','#layer-output','#open-layers','#assemble-layers','#follow-scroll','#reduced-status','.menu-toggle'].forEach(k=>m[k]=el());
+const docEvents={},globalEvents={},frames=[];
+const document={documentElement:root,hidden:false,querySelector:s=>m[s],querySelectorAll:s=>s==='.layer'?layers:[reveal],addEventListener(k,f){docEvents[k]=f}};
+const ctx={document,window:{},innerHeight:900,matchMedia:()=>media,requestAnimationFrame:f=>{frames.push(f);return frames.length},cancelAnimationFrame:()=>{},addEventListener(k,f){globalEvents[k]=f}};
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../08-estudo/lovinspoon.js'),'utf8'),ctx);
+assert(hero.classList.contains('playing'));assert(reveal.classList.contains('visible'));assert.equal(m['#layer-progress'].value,'0');
+m['#layer-progress'].value='50';m['#layer-progress'].events.input();assert.equal(layers[0].style.transform,'translateY(96px)');assert.equal(stage.style.transform,'translateY(-45px)');assert.equal(m['#layer-output'].textContent,'50%');
+m['#open-layers'].events.click();assert.equal(m['#layer-progress'].value,'0');m['#assemble-layers'].events.click();assert.equal(m['#layer-progress'].value,'100');
+m['#pause'].events.click();assert(root.classList.contains('motion-paused'));assert.equal(m['#pause'].textContent,'Resume motion');
+m['#replay'].events.click();assert(!root.classList.contains('motion-paused'));assert.equal(m['#pause'].attrs['aria-pressed'],'false');
+lunch.getBoundingClientRect=()=>({height:1100,top:-300});m['#follow-scroll'].events.click();assert.equal(m['#layer-progress'].value,'75');
+m['.menu-toggle'].events.click();assert(!nav.hidden);assert.equal(m['.menu-toggle'].attrs['aria-expanded'],'true');docEvents.keydown({key:'Escape'});assert(nav.hidden);assert(m['.menu-toggle'].focused);
+m['.menu-toggle'].events.click();link.events.click();assert(nav.hidden);
+media.matches=true;media.changed();assert(root.classList.contains('reduced-motion'));assert(!hero.classList.contains('playing'));assert(m['#layer-progress'].disabled);assert.equal(m['#layer-progress'].value,'0');assert(!m['#reduced-status'].hidden);
+media.matches=false;media.changed();assert(hero.classList.contains('playing'));assert(!m['#layer-progress'].disabled);
+console.log('PASS: opening, pause/replay, manual assembly geometry, scroll progress, navigation, Escape focus, observer fallback and live reduced-motion preference. DOM harness only.');

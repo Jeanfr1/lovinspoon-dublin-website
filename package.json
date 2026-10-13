@@ -1,0 +1,28 @@
+{
+  "name": "lovinspoon-dublin-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lovinspoon, 13 Frederick Street North, Dublin 1 — Love at first bite.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4193",
+    "upscale": "~/anaconda3/bin/python3 scripts/upscale.py",
+    "hero": "~/anaconda3/bin/python3 scripts/compose-hero.py",
+    "layers": "~/anaconda3/bin/python3 scripts/register-layers.py",
+    "logo": "~/anaconda3/bin/python3 scripts/trace-logo.py",
+    "images": "node scripts/build-images.mjs",
+    "fonts": "~/anaconda3/bin/python3 scripts/subset-fonts.py",
+    "qa": "node scripts/qa.mjs",
+    "shots": "node scripts/shots.mjs"
+  },
+  "engines": {
+    "node": ">=20.10"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.0",
+    "sharp": "^0.33.5",
+    "vite": "^6.4.4"
+  }
+}
